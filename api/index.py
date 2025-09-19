@@ -11,7 +11,7 @@ TOKEN = os.environ.get("TOKEN")
 app = FastAPI()
 
 
-@app.post("/webhook")
+@app.post("/")
 async def webhook(request: Request):
     bot = Bot(token=TOKEN)
     update = Update.de_json(await request.json(), bot)
