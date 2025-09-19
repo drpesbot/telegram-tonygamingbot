@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": {
+    "TOKEN": "7951585940:AAELpksU5uB49CoEUjOgbXUXN_yKA7lgQkU"
+  }
+}
+
